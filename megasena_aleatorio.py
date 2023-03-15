@@ -1,6 +1,7 @@
 import random
 print("Olá, Bem Vindo!")
 num_jogos = int(input("Quantos jogos você gostaria de gerar? "))
+print("Segue abaixo os jogos solicitados:")
 
 for i in range(num_jogos):
     numeros = []
@@ -10,5 +11,4 @@ for i in range(num_jogos):
         if numero not in numeros:
             numeros.append(numero)
     
-    print("Segue abaixo os jogos solicitados:")
     print(sorted(numeros))
